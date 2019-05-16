@@ -1,3 +1,3 @@
 class Figure < ActiveRecord::Base
-  h
+  has_many :figure_titles
 end
