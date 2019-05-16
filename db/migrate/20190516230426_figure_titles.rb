@@ -1,5 +1,5 @@
 class FigureTitles < ActiveRecord::Migration
   def change
-    cr 
+    create_table :figure_titles
   end
 end
